@@ -13,9 +13,8 @@ setup(
     packages=find_packages(),
     license='MIT',
     classifiers=[
-        'Intended Audience :: Researchers :: Developers',
-        'Topic :: Software Development :: Interpreters',
-        'Operating System :: Linux :: OS X',
+        'Operating System :: POSIX :: Linux',
+        'Operating System :: MacOS :: MacOS X',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
     ],
