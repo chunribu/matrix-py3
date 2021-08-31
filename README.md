@@ -13,7 +13,7 @@ Matrix-py3 is a python3 implementation of cmatrix to ganerate "character falls".
 + run in command line:
 
   ```bash
-  matrix # run until `CTL + C`
+  matrix # run until `Ctrl + C`
   matrix 3 # run for 3s
   ```
 + run in python:
