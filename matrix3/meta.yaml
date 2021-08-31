@@ -1,0 +1,26 @@
+package:
+  name: matrix-py3
+  version: "0.0.1"
+
+build:
+  number: 0
+  entry_points:
+    - matrix = matrix3:matrix
+
+requirements:
+  build:
+    - python >=3
+    - setuptools
+
+  run:
+    - python >=3
+    - ncurses
+
+test:
+  imports:
+    - matrix3
+
+about:
+  home: https://github.com/chunribu/matrix-py3/
+  license: MIT
+summary: Python3 implementation of cmatrix with a timer
