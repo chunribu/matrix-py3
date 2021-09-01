@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setup(
     name='matrix-py3',
-    version='0.0.1',
+    version='0.0.2',
     description='Python3 implementation of cmatrix with a timer',
     url='https://github.com/chunribu/matrix-py3',
     author='chunribu',
