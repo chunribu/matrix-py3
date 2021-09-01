@@ -2,7 +2,7 @@
 
 Python3 implementation of [cmatrix](https://github.com/abishekvashok/cmatrix) to ganerate "character falls". 
 
-Matrix-py3 is adapted from [pmatrix](https://github.com/joechrisellis/pmatrix) that is well recommended if you perfer Python2.
+Matrix-py3 is adapted from [pmatrix](https://github.com/joechrisellis/pmatrix) that is well recommended if you prefer Python2.
 
 It is also noteworthy that a **timer** is added to matrix-py3 for a scheduled stop.
 
