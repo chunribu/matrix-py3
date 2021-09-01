@@ -35,6 +35,6 @@ matrix 3 # run for 3 seconds
 ```python
 from matrix3 import matrix
 
-matrix # run until `Ctrl + C`
+matrix() # run until `Ctrl + C`
 matrix(3) # run for 3 seconds
 ```
