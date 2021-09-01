@@ -14,7 +14,7 @@ It is also noteworthy that a **timer** is added to matrix-py3 for a scheduled st
 conda install matrix-py3 -c conda-forge
 ```
 
-+with pip
++ with pip
 
 ```bash
 pip install matrix-py3
