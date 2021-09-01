@@ -6,7 +6,7 @@ Matrix-py3 is adapted from [pmatrix](https://github.com/joechrisellis/pmatrix) t
 
 It is also noteworthy that a **timer** is added to matrix-py3 for a scheduled stop.
 
-![screenshot](src/matrix.gif)
+![screenshot](https://github.com/chunribu/matrix-py3/raw/main/src/matrix.gif)
 
 ## Installation
 

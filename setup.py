@@ -2,7 +2,8 @@
 
 from setuptools import setup, find_packages
 
-
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 setup(
     name='matrix-py3',
     version='0.0.1',
@@ -12,6 +13,9 @@ setup(
     author_email='chunribu@mail.sdu.edu.cn',
     packages=find_packages(),
     license='MIT',
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    install_requires=[],
     classifiers=[
         'Operating System :: POSIX :: Linux',
         'Operating System :: MacOS :: MacOS X',
