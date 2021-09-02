@@ -28,6 +28,13 @@ COLORS = {
     "YELLOW" : curses.COLOR_YELLOW,
 }
 
+CLEAR = False
+FG = curses.COLOR_GREEN
+BG = curses.COLOR_BLACK
+LETTERS_PER_UPDATE = 6
+PROBABILITY = 6
+UPDATES_PER_SECOND = 10
+
 rand_string = lambda c, l: "".join(random.choice(c) for _ in range(l))
 
 ALIVE = True
@@ -88,8 +95,17 @@ def stop():
     global ALIVE
     ALIVE = False
 
-def matrix(T=None):
+def matrix(T=0):
+    TIMEOUT = T
+    if TIMEOUT > 0:
+        timer = threading.Timer(TIMEOUT, stop)
+        timer.start()
+    try:
+        curses.wrapper(main)
+    except (EOFError, KeyboardInterrupt):
+        sys.exit(0)
 
+def matrix_cmd():
     parser = ArgumentParser(description="Create the matrix falling text.",
                             formatter_class=ArgumentDefaultsHelpFormatter)
 
@@ -110,22 +126,19 @@ def matrix(T=None):
     args = parser.parse_args()
 
     global BG, CLEAR, FG, LETTERS_PER_UPDATE, PROBABILITY, UPDATES_PER_SECOND
+
     CLEAR = args.clear
     FG = COLORS.get(args.foreground.upper(), curses.COLOR_GREEN)
     BG = COLORS.get(args.background.upper(), curses.COLOR_BLACK)
     LETTERS_PER_UPDATE = abs(args.letters)
     PROBABILITY = args.probability - 1
     UPDATES_PER_SECOND = abs(args.ups)
-    TIMEOUT = T if T else args.timeout
-    
+    TIMEOUT = args.timeout
+
     if TIMEOUT > 0:
         timer = threading.Timer(TIMEOUT, stop)
         timer.start()
-
     try:
         curses.wrapper(main)
     except (EOFError, KeyboardInterrupt):
         sys.exit(0)
-
-if __name__ == "__main__":
-    matrix()
