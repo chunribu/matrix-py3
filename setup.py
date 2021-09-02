@@ -26,7 +26,6 @@ setup(
     entry_points={
         'console_scripts': [
             'matrix = matrix3:matrix_cmd',
-            'coolmatrix = matrix3:cool_matrix_cmd'
             ]
     }
 )
