@@ -6,8 +6,6 @@ Matrix-py3 is adapted from [pmatrix](https://github.com/joechrisellis/pmatrix) t
 
 It is noteworthy that a timer is added to matrix-py3 for a scheduled stop. 
 
-[TO DO]What's more, ~~matrix-py3 can be regarded as a screensaver parallel with other time-consuming programs.~~
-
 ![screenshot](https://github.com/chunribu/matrix-py3/raw/main/src/matrix.gif)
 
 ## Installation
@@ -47,3 +45,5 @@ matrix(3) # run for 3 seconds
 ```bash
 # NOT AVAILABLE YET
 ```
+
+[TO DO]What's more, ~~matrix-py3 can be regarded as a screensaver parallel with other time-consuming programs.~~
