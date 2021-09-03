@@ -1,6 +1,6 @@
 # Matrix-py3
 
-Python3 implementation of [cmatrix](https://github.com/abishekvashok/cmatrix) to ganerate "character falls". 
+Python3 implementation of [cmatrix](https://github.com/abishekvashok/cmatrix) to generate "character falls". 
 
 Matrix-py3 is adapted from [pmatrix](https://github.com/joechrisellis/pmatrix) that is well recommended if you prefer Python2.
 
