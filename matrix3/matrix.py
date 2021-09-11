@@ -33,7 +33,7 @@ FG = curses.COLOR_GREEN
 BG = curses.COLOR_BLACK
 LETTERS_PER_UPDATE = 6
 PROBABILITY = 6
-UPDATES_PER_SECOND = 10
+UPDATES_PER_SECOND = 7
 
 rand_string = lambda c, l: "".join(random.choice(c) for _ in range(l))
 
@@ -121,7 +121,7 @@ def matrix_cmd():
             help="The number of letters produced per update.")
     parser.add_argument("-p", "--probability", type=int, default=6,
             help="1/p probability of a dispense point deactivating.")
-    parser.add_argument("-u", "--ups", type=int, default=10,
+    parser.add_argument("-u", "--ups", type=int, default=6,
             help="The number of updates to perform per second.")
     args = parser.parse_args()
 

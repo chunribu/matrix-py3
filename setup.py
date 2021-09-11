@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setup(
     name='matrix-py3',
-    version='0.0.3',
+    version='0.0.4',
     description='Python3 implementation of cmatrix with a timer',
     url='https://github.com/chunribu/matrix-py3',
     author='chunribu',
@@ -15,7 +15,9 @@ setup(
     license='MIT',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    install_requires=[],
+    install_requires=[
+        'pebble',
+    ],
     classifiers=[
         'Operating System :: POSIX :: Linux',
         'Operating System :: MacOS :: MacOS X',
@@ -26,6 +28,7 @@ setup(
     entry_points={
         'console_scripts': [
             'matrix = matrix3:matrix_cmd',
+            'coolmatrix = matrix3:cool_matrix_cmd',
             ]
     }
 )
