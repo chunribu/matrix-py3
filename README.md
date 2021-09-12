@@ -4,7 +4,7 @@ Python3 implementation of [cmatrix](https://github.com/abishekvashok/cmatrix) to
 
 Matrix-py3 is adapted from [pmatrix](https://github.com/joechrisellis/pmatrix) that is well recommended if you prefer Python2.
 
-It is noteworthy that a timer is added to matrix-py3 for a scheduled stop. What's more, matrix-py3 can be regarded as a screensaver that runs parallel to other time-consuming programs.
+It is also noteworthy that a timer is added to matrix-py3 for a scheduled stop. What's more, matrix-py3 can be regarded as a screensaver that runs parallel to other time-consuming programs.
 
 ![screenshot](https://github.com/chunribu/matrix-py3/raw/main/src/matrix.gif)
 
@@ -26,21 +26,21 @@ conda install matrix-py3 -c conda-forge
 
 ### Run independently
 
-+ in command line:
++ in command line
 
 ```bash
-matrix # run until `Ctrl + C`
-matrix 3 # run for 3 seconds
+matrix    # run until `Ctrl + C`
+matrix 3  # run for 3 seconds
 ```
-+ in python:
++ in python
 
 ```python
 from matrix3 import matrix
 
-matrix() # run until `Ctrl + C`
+matrix()  # run until `Ctrl + C`
 matrix(3) # run for 3 seconds
 ```
-### Parallel to other programs
+### Run parallel to other programs
 
 Add `coolmatrix` to the head of your commands. For example, `ping` is a command for testing a network connection. Assuming you want to run `ping 8.8.8.8 -c 10` , then run:
 
