@@ -1,5 +1,5 @@
 # Matrix-py3
-[![Anaconda-Server Badge](https://anaconda.org/conda-forge/matrix-py3/badges/version.svg)](https://anaconda.org/conda-forge/matrix-py3) [![Anaconda-Server Badge](https://anaconda.org/conda-forge/matrix-py3/badges/downloads.svg)](https://anaconda.org/conda-forge/matrix-py3) [![Anaconda-Server Badge](https://anaconda.org/conda-forge/matrix-py3/badges/platforms.svg)](https://anaconda.org/conda-forge/matrix-py3) [![Anaconda-Server Badge](https://anaconda.org/conda-forge/matrix-py3/badges/license.svg)](https://anaconda.org/conda-forge/matrix-py3)
+[![chunribu logo](https://img.shields.io/badge/chunribu-🚀-black?logo=github)](https://github.com/chunribu/) [![Anaconda-Server Badge](https://anaconda.org/conda-forge/matrix-py3/badges/version.svg)](https://anaconda.org/conda-forge/matrix-py3) [![Anaconda-Server Badge](https://anaconda.org/conda-forge/matrix-py3/badges/downloads.svg)](https://anaconda.org/conda-forge/matrix-py3) [![Anaconda-Server Badge](https://anaconda.org/conda-forge/matrix-py3/badges/platforms.svg)](https://anaconda.org/conda-forge/matrix-py3) [![Anaconda-Server Badge](https://anaconda.org/conda-forge/matrix-py3/badges/license.svg)](https://anaconda.org/conda-forge/matrix-py3)
 
 Python3 implementation of [cmatrix](https://github.com/abishekvashok/cmatrix) to generate "character falls". 
 
